@@ -16,6 +16,10 @@ body{
   .barra{
   	margin-left: 0px !important;
   }
+  .uno p{
+	flex:auto;
+	margin-top: 0px !important;
+}
 }
 nav{
 	width: 100%;
