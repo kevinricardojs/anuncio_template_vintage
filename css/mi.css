@@ -1,7 +1,29 @@
 body{
 	margin: 0 auto;
-	background-image: url('vintage.jpg');
-	height: 100%;
+	body{
+	margin: 0 auto;
+	background-image: -webkit-linear-gradient(120deg,
+						      #9D2E1A 2%,
+						      #DFB771,
+						      #ACC584,
+						      #81AC77,
+						      #4B936D);
+	background-image: -o-linear-gradient(120deg,
+					      #9D2E1A 2%,
+					      #DFB771,
+					      #ACC584,
+					      #81AC77,
+					      #4B936D);
+	background-image: linear-gradient(120deg,
+					      #9D2E1A 2%,
+					      #DFB771,
+					      #ACC584,
+					      #81AC77,
+					      #4B936D);
+	background-repeat:no-repeat;
+	background-size:100% 1000px;
+
+}
 }
 .contenedor{
 	width: 80%;
